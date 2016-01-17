@@ -1,11 +1,11 @@
 import java.util.HashSet;
 
 /**
- * Keeps track of a Advisor object.Includes data for this Piece's piece value.
+ * Keeps track of a Advisor object. Includes data for this Piece's piece value.
  * Also includes behaviour to generate a list of chess points which this piece
  * can move to.
  * 
- * @author Riddle Li
+ * @author Derrick Thai and Riddle Li
  * @version January 20, 2015
  *
  */

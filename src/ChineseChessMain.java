@@ -262,9 +262,11 @@ public class ChineseChessMain extends JFrame implements ActionListener
 	 */
 	public void showCredits()
 	{
-		JOptionPane.showMessageDialog(this,
-				"Chinese Chess\n by Derrick Thai and Riddle Li\n\u00a9 2015",
-				"About", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane
+				.showMessageDialog(
+						this,
+						"Chinese Chess\nHead Programmer and Menus: Derrick Thai\nGraphics and Programming: Riddle Li\n\u00a9 2015",
+						"About", JOptionPane.INFORMATION_MESSAGE);
 	}
 
 	/**
@@ -273,7 +275,7 @@ public class ChineseChessMain extends JFrame implements ActionListener
 	 */
 	public void actionPerformed(ActionEvent event)
 	{
-		// Handle each option accordinly
+		// Handle each option accordingly
 		if (event.getSource() == newGameOption)
 			loadGame();
 		else if (event.getSource() == undoOption)

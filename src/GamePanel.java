@@ -24,7 +24,7 @@ import javax.swing.JPanel;
  * track of both player, the board, the pieces, and the moves list. Also keeps
  * track of the side panels and draws the traditional board.
  * 
- * @author Derrick Thai (except for indicated methods)
+ * @author Derrick Thai
  * @version v3.1 Final, Last Updated: December 20, 2015
  */
 public class GamePanel extends JPanel implements MouseListener,

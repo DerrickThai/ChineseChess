@@ -18,7 +18,7 @@ import javax.swing.ImageIcon;
  * result in a check. Can also determine's this Piece's piece value, flexibility
  * value and positional value.
  * 
- * @author Riddle and Derrick
+ * @author Derrick Thai and Riddle Li
  * @version January 20, 2015
  */
 public abstract class Piece extends Rectangle
